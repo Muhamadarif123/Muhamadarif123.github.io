@@ -1,98 +1,60 @@
-
 <!DOCTYPE html>
-<html>
-<head>
-    <title>HTML</title>
-    <style>
-        table,th,td {
-            border:1px solid black;
-        }
-        table tr td {
-            text-align: center;
-        } 
-    </style>
-</head>
-<body>
-    <h1 style="text-align: center;">Muhamad Arif Septianto : 41215524</h1>
-    <div>
-        <h3 style="text-align: center;">Teman Ikmi</h3>
-        <table style="width: 100%;">
-            <tr>
-                <th>Nomor</th>
-                <th>Nama</th>
-                <th>Alamat</th>
-                <th colspan="2">Aksi</th>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>Naufal</td>
-                <td>Purworejo</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>            
-                <td>2</td>
-                <td>Rivaldi</td>
-                <td>Indramayu</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>3</td>
-                <td>Khoirul Huda</td>
-                <td>Cirebon</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>4</td>
-                <td>Riko</td>
-                <td>Indramayu</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>5</td>
-                <td>Dimas</td>
-                <td>Ciamis</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>6</td>
-                <td>kevin</td>
-                <td>Majalengka</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>7</td>
-                <td>ibnu fajri</td>
-                <td>Brebes</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>8</td>
-                <td>andi hermawan</td>
-                <td>Banyumas</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>9</td>
-                <td>jaya</td>
-                <td>Cirebon</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-            <tr>
-                <td>10</td>
-                <td>harsya</td>
-                <td>Cirebon</td>
-                <td>Edit</td>
-                <td>Hapus</td>
-            </tr>
-        </table>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="jquery/jquery.js"></script>
+    <title>Class for SPA Menu</title>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h4>Muhammad Arif Septianto</h4>
+      </div>
+
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#produk">produk</a></li>
+        <li><a href="#layanan">layanan</a></li>
+        <li><a href="#tentang">tentang</a></li>
+        <li><a href="#kontak">kontak</a></li>
+      </ul>
+
+      <div class="menu-toggle">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </nav>
+    <div id="konten">
+      <div id="isikonten">
+        <div id="home">
+          <h4>Homem</h4>
+          <p>home adalah rumah</p>
+        </div>
+
+        <div id="produk">
+          <h4>produk</h4>
+          <p>produk adalah barang</p>
+        </div>
+        <div id="layanan">
+          <h4>Layanan</h4>
+          <p>Layanan adalah kerjaan yang percuma</p>
+        </div>
+        <div id="tentang">
+          <h4>Tentang </h4>
+          <p>Tentang tanten tante yang menyukai brondong yang ganteng menawan yaitu abang naufal </p>
+        </div>
+        <div id="kontak">
+          <h4>Kontak</h4>
+          <p>Tidur anda butuh mimpi untuk mengontak</p>
+        </div>
+      </div>
     </div>
-</body>
+
+    <script src="script.js"></script>
+  </body>
 </html>
